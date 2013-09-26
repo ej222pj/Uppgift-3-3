@@ -1,12 +1,18 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body
+{
+    background-color: #F0F0F0;
+}
 #container
 {
+   border: solid 20px #FFF;
    width: 600px;
    height: auto;
    margin: auto;
 }
 #topbar
 {
+    font-size: 12px;
     background-color: #51473D;
     text-align: right;
     color: #FFF;
@@ -24,7 +30,9 @@
     margin-top: 200px;
     position: relative;
     float: left;
+    visibility: hidden;
 }
+
 #content
 {
     background-color: #EAE8D3;
@@ -42,13 +50,17 @@
 #maincontent h1
 {
     color: #756E51;
+    font-family: "Times new roman", Times, serif;
 }
 #maincontent p
 {
-    color: #756E51;
+    color: #928966;
+    font-family: "Times new roman", Times, serif;
 }
 #maincontent img
-{float: left;}
+{
+    float: left;
+}
 #subcontent
 {
     background-color: #EAE8D3;
@@ -60,27 +72,45 @@
     color: #756E51;
     font-size: 18px;
 }
-#subcontent h2
+h2
 {
-    color: #4D4A39;
+    color: #756E51;
+    font-size: 14px;
+    margin-top: 60px;
 }
 #subcontent p
 {
-    color: #756E51;
+    color: #928966;
     font-size: 12px;
 }
 #bottomcontent
 {
     background-color: #EAE8D3;
     clear: both;
+
+}
+
+#bottomcontent {
+  visibility: hidden;
+}
+#bottomcontent:before
+{
+  font-style: italic;
+  font-size: 12px;
+  color: #756E51;
+  visibility: visible;
+  content: "© Högskolan i kalmar, Institutionen för kommunikation och design"; 
 }
 ul
 {
     -webkit-padding-start: 10px;
     list-style-type: none;
+    visibility: visible;
 }
 #menu>ul>li
 {
+    font-family: Verdana;
+    font-size: 14px;
     text-transform: capitalize;
     float: left;
     height: 30px;
@@ -94,6 +124,8 @@ ul
 }
 #menu>ul>li.active
 {
+    font-family: Verdana;
+    font-size: 14px;
     text-transform: capitalize;
     float: left;
     height: 30px;
@@ -156,20 +188,20 @@ ul
 a:link 
 {
 
-    color: #4D4A39;
+    color: #756E51;
 }      
 a:visited 
 {
 
-    color: #4D4A39;
+    color: #756E51;
 }  
 a:hover 
 {
-    color: #4D4A39;
+    color: #756E51;
 }  
 a:active 
 {
-    color: #4D4A39;
+    color: #756E51;
 } 
 
 
