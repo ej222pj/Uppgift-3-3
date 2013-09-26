@@ -1,1 +1,185 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container
+{
+   width: 600px;
+   height: auto;
+   margin: auto;
+}
+#topbar
+{
+    background-color: #51473D;
+    text-align: right;
+    color: #FFF;
+    background-image: url("pics/coffey.jpg");
+    background-repeat: no-repeat;
+    background-position:50% 17%;
+    height: 340px;
+    width: 600px;
+    position: fixed;
+    z-index: -1;
+}
+#menu
+{
+    margin-left: 0;
+    margin-top: 200px;
+    position: relative;
+    float: left;
+}
+#content
+{
+    background-color: #EAE8D3;
+    clear: left;
+    padding-top: 20px;
+}
+#maincontent
+{
+    margin: 0;
+    background-color: #EAE8D3;
+    float: left;
+    width: 365px;
+    border-right: dashed 1px #CAC8B3;
+}
+#maincontent h1
+{
+    color: #756E51;
+}
+#maincontent p
+{
+    color: #756E51;
+}
+#maincontent img
+{float: left;}
+#subcontent
+{
+    background-color: #EAE8D3;
+    float: right;
+    width: 225px;
+}
+#subcontent h1
+{
+    color: #756E51;
+    font-size: 18px;
+}
+#subcontent h2
+{
+    color: #4D4A39;
+}
+#subcontent p
+{
+    color: #756E51;
+    font-size: 12px;
+}
+#bottomcontent
+{
+    background-color: #EAE8D3;
+    clear: both;
+}
+ul
+{
+    -webkit-padding-start: 10px;
+    list-style-type: none;
+}
+#menu>ul>li
+{
+    text-transform: capitalize;
+    float: left;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #7A7267;
+    margin-left: 1px;
+
+}
+#menu>ul>li.active
+{
+    text-transform: capitalize;
+    float: left;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #EAE8D3;
+    margin-left: 1px;
+}
+
+#meny>a:first-child
+{
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+ }
+#menu>ul>li>a:link 
+{
+    text-decoration:none;
+    color:#FFF;
+}      
+#menu>ul>li>a:visited 
+{
+    text-decoration:none;
+    color:#FFF;
+}  
+#menu>ul>li>a:hover 
+{
+    text-decoration:none;
+    color:#FFF;
+}  
+#menu>ul>li>a:active 
+{
+    text-decoration:none;
+    color:#FFF;
+}  
+
+#menu>ul>li.active>a:link 
+{
+    text-decoration:none;
+    color:#868684;
+}      
+#menu>ul>li.active>a:visited 
+{
+    text-decoration:none;
+    color:#868684;
+}  
+#menu>ul>li.active>a:hover 
+{
+    text-decoration:none;
+    color:#868684;
+}  
+#menu>ul>li.active>a:active 
+{
+    text-decoration:none;
+    color:#868684;
+}  
+
+a:link 
+{
+
+    color: #4D4A39;
+}      
+a:visited 
+{
+
+    color: #4D4A39;
+}  
+a:hover 
+{
+    color: #4D4A39;
+}  
+a:active 
+{
+    color: #4D4A39;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
